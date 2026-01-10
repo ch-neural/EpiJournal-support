@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EpiJournal — Support / Marketing / Privacy</title>
+    <meta name="description" content="EpiJournal 的支援、行銷與隱私權政策頁面（Support URL / Marketing URL / Privacy Policy URL）。" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <div>
+            <div class="title">EpiJournal</div>
+            <div class="subtitle">Support / Marketing / Privacy</div>
+          </div>
+        </div>
+        <nav aria-label="主要導覽">
+          <a href="./support.html">Support</a>
+          <a href="./marketing.html">Marketing</a>
+          <a href="./privacy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>App Store Connect 用網址</h1>
+        <p>此站點提供 EpiJournal 的客服支援、行銷介紹、與隱私權政策。你可以把下列三個頁面分別填入 App Store Connect 的對應欄位。</p>
+      </section>
+
+      <section class="grid" aria-label="頁面列表">
+        <article class="card half">
+          <h2>Support URL（支援網址）</h2>
+          <p class="muted">常見用途：客服聯絡、FAQ、回報問題、功能建議。</p>
+          <p><a href="./support.html">前往 Support 頁面 →</a></p>
+        </article>
+
+        <article class="card half">
+          <h2>Marketing URL（行銷網址）</h2>
+          <p class="muted">常見用途：產品簡介、功能亮點、使用情境、媒體素材。</p>
+          <p><a href="./marketing.html">前往 Marketing 頁面 →</a></p>
+        </article>
+
+        <article class="card">
+          <h2>Privacy Policy URL（隱私權政策）</h2>
+          <p class="muted">說明資料蒐集/使用/分享方式、保留期間、你的權利與聯絡方式。</p>
+          <p><a href="./privacy.html">前往 Privacy Policy →</a></p>
+          <div class="callout small">
+            <div><span class="pill ok">建議</span> 若你之後 App 行為（例如登入、雲端同步、分析工具）有變更，請同步更新隱私權政策並調整 App Store「App Privacy」填寫內容。</div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container small">
+        <div class="muted">© <span id="y"></span> ch-neural — EpiJournal</div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("y").textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
