@@ -43,7 +43,7 @@ All pages live in `docs/`:
 
 Shared styling: `docs/assets/styles.css`
 
-> The contact email is currently set to `support@ch-neural.com`. To change it, edit `support.html`, `privacy.html`, and `marketing.html`.
+> Contact is handled via GitHub Issues: `https://github.com/ch-neural/EpiJournal-support/issues`
 
 ---
 
